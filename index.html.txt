@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="mn">
+<head>
+<meta charset="UTF-8">
+<title>RE1999 Wear</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body{margin:0;font-family:Arial;background:#f2f2f2}
+header{background:#000;color:#fff;padding:15px;text-align:center}
+.products{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:15px;padding:15px}
+.card{background:#fff;border-radius:10px;padding:10px;text-align:center}
+.card img{width:100%;border-radius:10px}
+button{background:#E1306C;color:#fff;border:none;padding:10px;border-radius:5px;cursor:pointer;width:100%}
+</style>
+</head>
+
+<body>
+
+<header>
+<h2>RE1999 Wear</h2>
+<p>Цамц • Өмд • Пүүз • Куртик<br>5–8 хоногт хүргэнэ</p>
+</header>
+
+<div class="products">
+
+<div class="card">
+<img src="https://via.placeholder.com/300">
+<h3>Цамц</h3>
+<p>Үнэ: 45,000₮</p>
+<button onclick="order()">Instagram-аар захиалах</button>
+</div>
+
+</div>
+
+<script>
+function order(){
+window.open("https://www.instagram.com/re1999.wear","_blank");
+}
+</script>
+
+</body>
+</html>
